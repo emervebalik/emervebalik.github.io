@@ -216,7 +216,7 @@ app.controller("loginCtrl", function ($scope, $http, $location, $timeout, $httpP
     };
 
     $scope.user = {
-        grant_type: "",
+        grant_type: "password",
         username: "",
         password: ""
     };
